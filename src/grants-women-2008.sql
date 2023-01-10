@@ -1,0 +1,1 @@
+SELECT sum(amount) FROM grants WHERE fiscal_year < '01/01/2009' AND fiscal_year > '12/31/2007' AND applicant_name LIKE '%Women%';
